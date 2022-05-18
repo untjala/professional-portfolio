@@ -1,4 +1,31 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color:  #78866b;
+}
 h1 {
-    color: aliceblue;
-    background-color: green ;
+    font-family: 'Lora', serif;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+.work {
+    background-color: #9fb9bf;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
