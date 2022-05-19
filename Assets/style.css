@@ -39,7 +39,7 @@ p {
   color: #f8f6eb;
 }
 
-.work {
+#work {
   background-color: #9fb9bf;
   display: flex;
   flex-direction: row;
