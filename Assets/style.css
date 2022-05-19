@@ -43,6 +43,7 @@ nav li {
 
 nav li a:hover {
   color: #d9b674;
+  opacity: 0.5;
 }
 
 #about {
@@ -60,28 +61,34 @@ nav li a:hover {
   border: 5px solid var(--accent);
 }
 
-.work-title {
+#work {
+  background-color: var(--light)
+}
+
+#work h2 {
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: var(--accent);
+}
+
+.main-project {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-right: 20px;
-  border-right: 5px solid var(--accent);
+  justify-content: center;
+  opacity: 1;
 }
-.work-title {
-  font-size: 25px;
+
+.main-project:hover {
+  opacity: 0.5;
 }
-/*.main-project {
-  height: 200px;
-  width: 300px;
-} 
-*/
-.projects {
-  background-color: var(--light);
+
+.coming-soon {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  opacity: 1;
 }
 
 figure {
@@ -90,23 +97,36 @@ figure {
   text-align: center;
   margin: 10px;
   padding: 10px;
-  overflow-wrap: break-word;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow: auto;
+
+}
+
+#one:hover {
+  opacity: 0.5;
+}
+
+#two:hover {
+  opacity: 0.5;
+}
+
+#three:hover {
+  opacity: 0.5;
+
 }
 
 #contact {
   text-align: center;
 }
 
+footer {
+  background-color: var(--accent);
+}
+
 footer h3 {
   font-size: 20px;
-  color: var(--accent);
   margin-top: 0px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 550px) {
   figure {
     width: 50%;
   }
@@ -115,10 +135,5 @@ footer h3 {
   nav {
     flex-wrap: wrap;
     flex-direction: column;
-  }
-
-  header,
-  h1 {
-    justify-content: center;
   }
 }
