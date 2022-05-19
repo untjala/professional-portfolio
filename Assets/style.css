@@ -45,7 +45,9 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+.first {
+  width: 1200px;
+}
 figure {
   float: inline-start;
   width: 30%;
@@ -56,4 +58,15 @@ figure {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: auto;
+}
+
+@media screen and (max-width:992px) {
+  figure {
+    width: 50%;
+  }
+  @media screen and (max-width: 968px) {
+    figure {
+      width: 100%;
+    }
+  }
 }
