@@ -1,10 +1,11 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
 :root {
-  --light:#9fb9bf;
+  --light: #9fb9bf;
   --dark: #78866b;
-  --accent:#f8f6eb;
+  --accent: #f8f6eb;
 }
 
 body {
@@ -59,15 +60,28 @@ nav li a:hover {
   border: 5px solid var(--accent);
 }
 
-#work {
+.work-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 20px;
+  border-right: 5px solid var(--accent);
+}
+.work-title h2 {
+  font-size: 25px;
+}
+.main-project {
+  background-image: url(./Horiseon-background.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+.projects {
   background-color: var(--light);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.first {
-  width: 1200px;
 }
 
 figure {
@@ -85,11 +99,13 @@ figure {
 #contact {
   text-align: center;
 }
+
 footer h3 {
   font-size: 20px;
-  color:var(--accent);
+  color: var(--accent);
   margin-top: 0px;
 }
+
 @media screen and (max-width: 560px) {
   figure {
     width: 50%;
