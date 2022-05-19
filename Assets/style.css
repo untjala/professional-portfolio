@@ -1,17 +1,22 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+:root {
+  --light:#9fb9bf;
+  --dark: #78866b;
+  --accent:#f8f6eb;
+}
 
 body {
-  background-color: #78866b;
+  background-color: var(--dark);
 }
 
 header {
-  background-color: #9fb9bf;
+  background-color: var(--light);
 }
 
-h1 {
-  color: #f8f6eb;
+header h1 {
+  color: var(--accent);
   display: inline;
   font-size: 30px;
 }
@@ -24,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #f8f6eb;
+  color: var(--accent);
   font-weight: bold;
   text-decoration: none;
 }
@@ -41,7 +46,7 @@ nav li a:hover {
 #about {
   display: flex;
   font-size: 20px;
-  color: #f8f6eb;
+  color: var(--accent);
   background-image: url(about-background.jpeg);
 }
 
@@ -50,11 +55,11 @@ nav li a:hover {
   height: 200px;
   margin-right: 20px;
   margin-top: 10px;
-  border: 5px solid #f8f6eb;
+  border: 5px solid var(--accent);
 }
 
 #work {
-  background-color: #9fb9bf;
+  background-color: var(--light);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -81,7 +86,7 @@ figure {
 }
 footer h3 {
   font-size: 20px;
-  color:#f8f6eb;
+  color:var(--accent);
   margin-top: 0px;
 }
 @media screen and (max-width: 560px) {
