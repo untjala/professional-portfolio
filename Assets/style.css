@@ -1,41 +1,51 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
-body {
-    background-color:  #78866b;
-}
-h1 {
-    font-family: 'Lora', serif;
 
+body {
+  background-color: #78866b;
 }
+
+h1 {
+  color: #f8f6eb;
+}
+
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  nav a {
-    background-color: unset;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: white;
-  }
-  .jala {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    border: solid 10px #f8f6eb;
-  }
-.work {
-    background-color: #9fb9bf;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+nav a {
+  background-color: unset;
+  color: #f8f6eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f8f6eb;
+}
+
+.jala {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border: solid 10px #f8f6eb;
+}
+
+p {
+  font-size: larger;
+  color: #f8f6eb;
+}
+
+.work {
+  background-color: #9fb9bf;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 figure {
   float: inline-start;
   width: 30%;
@@ -43,7 +53,7 @@ figure {
   margin: 10px;
   padding: 10px;
   overflow-wrap: break-word;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
 }
