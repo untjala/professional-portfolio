@@ -6,7 +6,7 @@ body {
 }
 h1 {
     font-family: 'Lora', serif;
-
+    
 }
 nav ul {
     display: flex;
@@ -27,8 +27,8 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%
-
+    width: 15%;
+    border: solid 10px #f8f6eb;
   }
 .work {
     background-color: #9fb9bf;
