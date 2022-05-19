@@ -76,6 +76,14 @@ figure {
   overflow: auto;
 }
 
+#contact {
+  text-align: center;
+}
+footer h3 {
+  font-size: 20px;
+  color:#f8f6eb;
+  margin-top: 0px;
+}
 @media screen and (max-width: 560px) {
   figure {
     width: 50%;
