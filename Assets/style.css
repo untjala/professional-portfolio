@@ -68,20 +68,20 @@ nav li a:hover {
   padding-right: 20px;
   border-right: 5px solid var(--accent);
 }
-.work-title h2 {
+.work-title {
   font-size: 25px;
 }
-.main-project {
-  background-image: url(./Horiseon-background.jpg);
-  background-size: cover;
+/*.main-project {
   height: 200px;
   width: 300px;
-}
+} 
+*/
 .projects {
   background-color: var(--light);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 figure {
