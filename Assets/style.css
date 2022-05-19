@@ -5,9 +5,11 @@
 body {
   background-color: #78866b;
 }
+
 header {
   background-color: #9fb9bf;
 }
+
 h1 {
   color: #f8f6eb;
   display: inline;
@@ -34,6 +36,7 @@ nav li {
 nav li a:hover {
   color: #d9b674;
 }
+
 #about {
   display: flex;
   font-size: larger;
@@ -72,14 +75,18 @@ figure {
   overflow: auto;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 560px) {
   figure {
     width: 50%;
   }
 
-  @media screen and (max-width: 968px) {
-    figure {
-      width: 100%;
-    }
+  main,
+  nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  header, 
+  h1 {
+    justify-content: center;
   }
 }
