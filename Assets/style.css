@@ -36,3 +36,10 @@ nav ul {
     flex-direction: row;
     flex-wrap: wrap;
 }
+figure {
+  float: inline-start;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
