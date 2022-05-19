@@ -5,7 +5,9 @@
 body {
   background-color: #78866b;
 }
-
+header {
+  background-color: #9fb9bf;
+}
 h1 {
   color: #f8f6eb;
   display: inline;
@@ -14,10 +16,11 @@ h1 {
 nav ul {
   text-align: right;
   display: inline;
+  float: right;
+
 }
 
 nav a {
-  background-color: unset;
   color: #f8f6eb;
   font-weight: bold;
   text-decoration: none;
@@ -31,19 +34,18 @@ nav li {
 nav li a:hover {
   color: #d9b674;
 }
-
-.jala {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-  border: solid 10px #f8f6eb;
-}
-
-p {
+#about {
+  display: flex;
   font-size: larger;
   color: #f8f6eb;
 }
+
+.profile-img {
+  display: flex;
+  height: 200px;
+  padding:2px;
+}
+
 
 #work {
   background-color: #9fb9bf;
