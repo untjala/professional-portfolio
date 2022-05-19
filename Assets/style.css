@@ -13,13 +13,14 @@ header {
 h1 {
   color: #f8f6eb;
   display: inline;
+  font-size: 30px;
 }
 
 nav ul {
   text-align: right;
   display: inline;
   float: right;
-
+  font-size: 30px;
 }
 
 nav a {
@@ -39,18 +40,18 @@ nav li a:hover {
 
 #about {
   display: flex;
-  font-size: larger;
+  font-size: 20px;
   color: #f8f6eb;
+  background-image: url(about-background.jpeg);
 }
 
 .profile-img {
   display: flex;
   height: 200px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 10px;
   border: 5px solid #f8f6eb;
 }
-
 
 #work {
   background-color: #9fb9bf;
@@ -85,7 +86,8 @@ figure {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  header, 
+
+  header,
   h1 {
     justify-content: center;
   }
