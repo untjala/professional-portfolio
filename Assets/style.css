@@ -22,8 +22,8 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #f8f6eb;
+nav li a:hover {
+  color: #d9b674;
 }
 
 .jala {
