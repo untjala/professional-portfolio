@@ -8,11 +8,12 @@ body {
 
 h1 {
   color: #f8f6eb;
+  display: inline;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-evenly;
+  text-align: right;
+  display: inline;
 }
 
 nav a {
@@ -20,6 +21,11 @@ nav a {
   color: #f8f6eb;
   font-weight: bold;
   text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
 }
 
 nav li a:hover {
@@ -45,9 +51,11 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .first {
   width: 1200px;
 }
+
 figure {
   float: inline-start;
   width: 30%;
@@ -64,6 +72,7 @@ figure {
   figure {
     width: 50%;
   }
+
   @media screen and (max-width: 968px) {
     figure {
       width: 100%;
